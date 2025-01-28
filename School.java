@@ -1,5 +1,6 @@
 public class School {
 
+    // creating variables
     int teachers = 30;
     int students = 90;
     static int rooms = 32;
@@ -12,6 +13,7 @@ public class School {
     }
 
     public void branches() {
+        classes(); // calling non static method to an non static method no need an object
         System.out.println("Which branch are you in");
     }
 
@@ -48,8 +50,9 @@ public class School {
     }
 
     public void newDetails() {
-        System.out.println(schoolName + " has " + students + " students, " + teachers + " teachers");
+        System.out.println("new school" + schoolName + " has " + students + " students, " + teachers + " teachers");
     }
+
 
     // main method    
     // public static void main(String[] args) {
