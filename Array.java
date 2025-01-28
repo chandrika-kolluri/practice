@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Array {
 
     public static void main(String[] args) {
@@ -50,6 +52,10 @@ public class Array {
         for(int num : arr2) {
             System.out.println(num);
         }
+        System.out.println("____________________");
+        // to write all arrays in line we have to import array
+        // to convert array to string
+        System.out.println(Arrays.toString(arr2));
 
     }
     
