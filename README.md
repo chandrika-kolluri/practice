@@ -10,3 +10,12 @@ Calling Methods and constructors
 
 
 Creating Static blocks and how to access them
+
+
+Added arrays 
+
+
+For loop
+
+
+While and do-while loops
