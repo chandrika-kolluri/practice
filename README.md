@@ -19,3 +19,9 @@ For loop
 
 
 While and do-while loops
+
+
+if-else Loops
+
+
+switch-case
