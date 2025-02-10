@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import mypackage.MyClass;
 
 // 1. Class and Object
 class Car {
@@ -131,6 +132,18 @@ class Add {
     }
 }
 
+// 11. Type Conversion
+class Conversion {
+    int num1 = 122;
+    double num2 = 123.345;
+    public void typeConv() {
+        double num3 = num1;
+        int num4 = (int)num2;
+        System.out.println("The converted of int " + num1 + " to double is " + num3);
+        System.out.println("The converted of double " + num2 + " to int is " + num4);
+    }
+}
+
 // Main method
 public class Main {
     public static void main(String[] args) {
@@ -201,6 +214,18 @@ public class Main {
         int numb2In = sc.nextInt();
         Add addObj = new Add(numb1In, numb2In);
         addObj.Addition();
+        System.out.println("--------------");
+
+        System.out.println("Question 10");
+        System.out.println("Calling display from the package");
+        MyClass mc = new MyClass();
+        mc.display();
+        System.out.println("--------------");
+
+        System.out.println("Question 11");
+        System.out.println("Conversion of int to double and double to int");
+        Conversion co = new Conversion();
+        co.typeConv();
         System.out.println("--------------");
 
     } 
